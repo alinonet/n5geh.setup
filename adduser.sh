@@ -2,7 +2,7 @@
 echo Set the admin user with this command:
 echo python3 manage.py createsuperuser
 echo Then, open Entirety at http://localhost.
-docker exec -it entirety-1 bash
+docker exec -it entirety bash
 
 echo You can also set Grafana:
 echo http://localhost:3001/login
