@@ -1,4 +1,6 @@
 #!/bin/bash
+docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+
 echo Set the admin user with this command:
 echo python3 manage.py createsuperuser
 echo Then, open Entirety at http://localhost.
