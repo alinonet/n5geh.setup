@@ -10,3 +10,4 @@ chmod +x n5geh.platform/scripts/installation_setup.sh
 ./n5geh.platform/scripts/installation_setup.sh
 echo Press Enter to reboot...
 read enter
+sudo reboot
