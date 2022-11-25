@@ -2,9 +2,9 @@
 
 Clone this repo ``git clone https://github.com/alinonet/n5geh.setup``
 
-Setup Docker and folders ``./.setup_server.sh``
+Setup Docker and folders ``./.setup.sh``
 
-If SFTP is not enabled, run once ``./.enable_sftp.sh``
+Enable SFTP (if needed) ``./.enable-sftp.sh``
 
 Run Entirety ``./run.sh``
 
