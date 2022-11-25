@@ -11,9 +11,6 @@ echi
 echo Setup Docker and N5GEH Platform (FIWARE)...
 chmod +x platform/scripts/installation_setup.sh
 ./platform/scripts/installation_setup.sh
-echo
-echo Enable SFTP...
-./.enable_sftp.sh
 
 echo Press Enter to reboot...
 read enter
