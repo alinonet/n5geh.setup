@@ -5,19 +5,25 @@
 
 ### Setup Docker, N5GEH Platform and Entirety folders
 ``cd n5geh.setup``
+
 ``./install.sh``
 
 ### Run Entirety and N5GEH Platform
 ``./run.sh``
 
-### Stop Entirety and N5GEH Platform
-``./stop.sh``
-
-### Add admins to Entirety
+### Add users to Entirety
 ``./adduser.sh``
 
-### Check Docker containers
-``docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"``
+### Add users to Entirety
+``./adduser.sh``
+
+### Add users to Entirety
+``./adduser.sh``
 
 ### Check running processes
-``top -u ubuntu``
+Docker: ``docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"``
+
+Linux: ``top -u ubuntu``
+
+### Stop Entirety and N5GEH Platform
+``./stop.sh``
