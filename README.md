@@ -13,20 +13,20 @@ Stop Entirety and N5GEH Platform: ``./stop.sh``.
 ### Useful commands
 Config N3GEH Platform:
 
-``cd platform``
+``cd platform``;
 
-``nano docker-compose.yml``
+``nano docker-compose.yml``.
 
 Config Entirety:
 
-``cd entirety/docker``
+``cd entirety/docker``;
 
 ``nano docker-compose.yml``
 
 or
 
-``nano .env``
+``nano .env``.
 
-Check docker status: ``docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"``
+Check docker status: ``docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"``.
 
-Check system info and running processes: ``top -u ubuntu``
+Check system info and running processes: ``top -u ubuntu``.
