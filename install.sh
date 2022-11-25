@@ -13,5 +13,5 @@ chmod +x platform/scripts/installation_setup.sh
 ./platform/scripts/installation_setup.sh
 echo
 echo Press Enter to reboot...
-read enter
+read key
 sudo reboot
