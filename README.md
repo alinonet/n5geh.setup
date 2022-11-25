@@ -4,6 +4,7 @@
 ``git clone https://github.com/alinonet/n5geh.setup``
 
 ### Setup Docker, N5GEH Platform and Entirety folders
+``cd n5geh.setup``
 ``./install.sh``
 
 ### Run Entirety and N5GEH Platform
@@ -12,11 +13,11 @@
 ### Stop Entirety and N5GEH Platform
 ``./stop.sh``
 
-### Add users to Entirety
+### Add admins to Entirety
 ``./adduser.sh``
 
-### Check Docker status
-``./chech.sh``
+### Check Docker containers
+``docker ps -a --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"``
 
-### Check running apps
+### Check running processes
 ``top -u ubuntu``
