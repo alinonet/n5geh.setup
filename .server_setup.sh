@@ -7,11 +7,11 @@ echo
 echo Download Entirety...
 git clone https://github.com/alinonet/n5geh.entirety
 mv n5geh.entirety entirety
-echi
+echo
 echo Setup Docker and N5GEH Platform (FIWARE)...
 chmod +x platform/scripts/installation_setup.sh
 ./platform/scripts/installation_setup.sh
-
+echo
 echo Press Enter to reboot...
 read enter
 sudo reboot
